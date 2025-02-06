@@ -10,13 +10,13 @@ const Navbar = () => {
         <div className={"flex relative w-[200px]"}>
           <Search
             className={
-              "absolute h-5 w-5 left-[4px] mr-2 top-1/2 -translate-y-1/2 cursor-pointer dark:text-white"
+              "absolute h-5 w-5 left-[4px] mr-2 top-1/2 -translate-y-1/2 cursor-pointer"
             }
           />
           <input
             type="search"
             className={
-              "w-full rounded border-none bg-gray-100 dark:bg-gray-700 placeholder-gray-500 p-2 pl-8 focus:outline-none focus:border-transparent dark:text-white dark:placeholder-white"
+              "w-full rounded border-none bg-gray-100 placeholder-gray-500 p-2 pl-8 focus:outline-none focus:border-transparent"
             }
             placeholder={"Search..."}
           />
